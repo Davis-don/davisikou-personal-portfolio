@@ -1,0 +1,68 @@
+@media screen and (max-width: 400px){
+    .header-links-overall-container{
+  position:relative;
+    }
+    .actual-image{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    .image-holder-container{
+    width:100%;
+    height:70vh;
+    }
+    .user-name-text{
+
+    }
+    .name-first-letter{
+    color:#F30606;
+    }
+    .user-name-text-render p{
+     color:white;
+    position:absolute;
+    top:0px;
+    font-weight: 500;
+    font-size: larger;
+    letter-spacing: 4px;
+    margin-left:10px;
+    }
+    .menu-icon-holder{
+    width:35px;
+    height: 28px;
+    }
+    .actual-bars-icon{
+    width:100%;
+    height: 100%;
+    color:white;
+    }
+    .menu-icon-render{
+    position: absolute;
+    top:15px;
+    left:80vw;
+    }
+    .skill-text{
+    color:rgb(225, 218, 218)
+    }
+    .introduction-text{
+    font-size: x-large;
+    color:white;
+    font-weight: 700;
+    letter-spacing: normal;
+    }
+    .user-name{
+    color:#F30606;
+    }
+    .Header-intro-text-render{
+        position: absolute;
+        top:35vw;
+        margin-left: 7vw;
+    }
+    .header-text-holder{
+    
+    }
+}
+@media screen and (min-width: 401px){
+    *{
+        
+    }
+}
