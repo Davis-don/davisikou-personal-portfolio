@@ -1,3 +1,5 @@
+@media screen and (max-width: 400px){
+
 .overall-services-container{
 width:100%;
 height: max-content;
@@ -33,4 +35,8 @@ margin-top: 60px;
 .service-2{
 background-color: #28161C;
 position:relative;
+}
+}
+@media screen and (min-width: 400px){
+
 }

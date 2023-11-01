@@ -2,6 +2,7 @@ import './App.css';
 import Headerlinkssection from './Components/Headerlinkssection';
 import Aboutsection from './Aboutsection';
 import Services from './Components/Services';
+import Myworks from './Components/Myworks';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className='services-component'>
         <Services/>
+      </div>
+      <div className='My-works-component'>
+        <Myworks/>
       </div>
     </div>
   );

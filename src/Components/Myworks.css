@@ -1,0 +1,36 @@
+@media screen and (max-width: 400px){
+
+    .myworks-overall-container{
+    width:100%;
+    height: max-content;
+    background-color: #020202;
+    padding: 20px;
+    }
+    .work-holders{
+        display: flex;
+        flex-direction: column;
+        gap:20px
+    }.work-1,.work-2{
+    width:90%;
+    height: 210px;
+    margin: auto;
+    
+    }
+    .work-1{
+    background-color: #F52261;
+    position:relative;
+    }
+    .actual-work1-image,.actual-work2-image{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .work-2{
+    background-color: #28161C;
+    position:relative;
+    }
+    .actual-work2-image{
+    
+    }
+}
