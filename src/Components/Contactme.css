@@ -1,0 +1,19 @@
+@media screen and (max-width: 400px){
+.overall-contact-section{
+background-color: #181717;
+}
+.form-component-holder{
+width:75vw;
+height: max-content;
+margin:auto;
+padding: 20px;
+}
+.form-component-holder form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.form-component-holder form input{
+background-color: #5C5656;
+}
+}

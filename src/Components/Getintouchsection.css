@@ -1,0 +1,40 @@
+.getintouch-overfall-container{
+
+}
+.contact-details-container{
+width:max-content;
+margin: auto;
+padding:20px;
+}
+.overall-contact-list{
+    display: flex;
+    flex-direction: column;
+gap:20px;
+}
+.contact-info{
+display:flex;
+flex-direction: row;
+gap:15px
+}
+.contact-info li{
+color:white;
+text-align:center;
+}
+.contact-icon{
+font-size: 45px;
+}
+.bottom-icons-container{
+display: flex;
+flex-direction: row;
+width:max-content;
+margin:auto;
+gap:10px;
+padding:20px;
+}
+.bottom-icons-container div{
+width:45px;
+height:45px;
+}
+.copyright-txt{
+color: rgb(105, 102, 102);
+}

@@ -3,6 +3,8 @@ import Headerlinkssection from './Components/Headerlinkssection';
 import Aboutsection from './Aboutsection';
 import Services from './Components/Services';
 import Myworks from './Components/Myworks';
+import Contactme from './Components/Contactme';
+import Getintouchsection from './Components/Getintouchsection';
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
       </div>
       <div className='My-works-component'>
         <Myworks/>
+      </div>
+      <div className='Contactme-component'>
+        <Contactme/>
+      </div>
+      <div className='Getintouchcomponent'>
+  <Getintouchsection/>
       </div>
     </div>
   );
