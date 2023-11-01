@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/davisikou-personal-portfolio/static/css/main.bc341c3b.css",
-    "main.js": "/davisikou-personal-portfolio/static/js/main.089166cf.js",
+    "main.css": "/davisikou-personal-portfolio/static/css/main.5b3c6c57.css",
+    "main.js": "/davisikou-personal-portfolio/static/js/main.c368783e.js",
     "static/js/787.fb771931.chunk.js": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/daniel-korpai-bOKIptPzdPk-unsplash.jpg": "/davisikou-personal-portfolio/static/media/daniel-korpai-bOKIptPzdPk-unsplash.7f6e7c2066c4c813d011.jpg",
     "static/media/8machine-_-GVAYgLlpeZ8-unsplash.jpg": "/davisikou-personal-portfolio/static/media/8machine-_-GVAYgLlpeZ8-unsplash.65edde2b6b4ffad4adb4.jpg",
     "static/media/donieimg.jpg": "/davisikou-personal-portfolio/static/media/donieimg.f39b2d83cefa122a10ec.jpg",
     "index.html": "/davisikou-personal-portfolio/index.html",
-    "main.bc341c3b.css.map": "/davisikou-personal-portfolio/static/css/main.bc341c3b.css.map",
-    "main.089166cf.js.map": "/davisikou-personal-portfolio/static/js/main.089166cf.js.map",
+    "main.5b3c6c57.css.map": "/davisikou-personal-portfolio/static/css/main.5b3c6c57.css.map",
+    "main.c368783e.js.map": "/davisikou-personal-portfolio/static/js/main.c368783e.js.map",
     "787.fb771931.chunk.js.map": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc341c3b.css",
-    "static/js/main.089166cf.js"
+    "static/css/main.5b3c6c57.css",
+    "static/js/main.c368783e.js"
   ]
 }
