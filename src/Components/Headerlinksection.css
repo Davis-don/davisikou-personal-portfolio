@@ -68,7 +68,7 @@
     background-color: rgb(25, 25, 25);
     position: absolute;
     top: 10vh;
-    left:0px;
+    right:0px;
     z-index: +2;
     }
     .my-user-img{
