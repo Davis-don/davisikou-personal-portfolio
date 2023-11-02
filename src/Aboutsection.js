@@ -28,7 +28,7 @@ function Navigationlinks(){
     return(
         <div className='Skills-section container-fluid'>
         <ul className='list-unstyled skills-links'>
-            <li className='text-decoration-none text-light active'>Skills</li>
+            <li className='text-decoration-none text-light active-skill'>Skills</li>
             <li className='text-decoration-none text-light'>Expertise</li>
             <li className='text-decoration-none text-light'>Education</li>
         </ul>

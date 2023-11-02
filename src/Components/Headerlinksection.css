@@ -94,8 +94,10 @@ padding: 20px;
     border-bottom: 2px solid #F30606;;
 
     }
-.active{
+.active-sidebar{
     color:black;
+    background-color: white;
+    padding:10px;
 }
     .sidebar-nav-links li a{
         font-size: large;

@@ -42,7 +42,7 @@ function Headerintrotext(){
          </div>
          <p className='text-light'style={{fontSize:'x-large',textAlign:'center',marginTop:'20px;'}}>Menu</p>
          <ul className='list-unstyled sidebar-nav-links container-fluid'>
-          <li className='active'><a className='text-decoration-none text-dark' href='#'>Home</a></li>
+          <li className='active-sidebar'><a className='text-decoration-none text-dark' href='#'>Home</a></li>
           <li><a className='text-decoration-none'href='#'>Services</a></li>
           <li><a className='text-decoration-none'href='#'>My works</a></li>
           <li><a className='text-decoration-none'href='#'>Contact me</a></li>
