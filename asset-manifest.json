@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/davisikou-personal-portfolio/static/css/main.70970792.css",
+    "main.css": "/davisikou-personal-portfolio/static/css/main.c1a55a14.css",
     "main.js": "/davisikou-personal-portfolio/static/js/main.5b9748e3.js",
     "static/js/787.fb771931.chunk.js": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/daniel-korpai-bOKIptPzdPk-unsplash.jpg": "/davisikou-personal-portfolio/static/media/daniel-korpai-bOKIptPzdPk-unsplash.7f6e7c2066c4c813d011.jpg",
@@ -9,12 +9,12 @@
     "static/media/reshot-icon-app-design-MV4FNWBQPT.svg": "/davisikou-personal-portfolio/static/media/reshot-icon-app-design-MV4FNWBQPT.c1ae98099fdbc1c95083e44809e1fd97.svg",
     "static/media/reshot-icon-computer-web-coding-MS3EDQ8V6H.svg": "/davisikou-personal-portfolio/static/media/reshot-icon-computer-web-coding-MS3EDQ8V6H.d3cb6952daead4d8f1c0f29c7781d4a4.svg",
     "index.html": "/davisikou-personal-portfolio/index.html",
-    "main.70970792.css.map": "/davisikou-personal-portfolio/static/css/main.70970792.css.map",
+    "main.c1a55a14.css.map": "/davisikou-personal-portfolio/static/css/main.c1a55a14.css.map",
     "main.5b9748e3.js.map": "/davisikou-personal-portfolio/static/js/main.5b9748e3.js.map",
     "787.fb771931.chunk.js.map": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70970792.css",
+    "static/css/main.c1a55a14.css",
     "static/js/main.5b9748e3.js"
   ]
 }
