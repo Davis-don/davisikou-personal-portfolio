@@ -95,9 +95,7 @@ padding: 20px;
 
     }
 .active{
-    background-color: white;
     color:black;
-    padding: 10px;
 }
     .sidebar-nav-links li a{
         font-size: large;
