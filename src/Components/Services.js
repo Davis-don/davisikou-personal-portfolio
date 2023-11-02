@@ -1,8 +1,8 @@
 import React from 'react'
 import './Services.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import webdevimg from'../Images/webdev icon.png'
-import  uiuxicon from'../Images/UIUX icon.png'
+import webdevimg from'../Images/reshot-icon-computer-web-coding-MS3EDQ8V6H.svg'
+import  uiuxicon from'../Images/reshot-icon-app-design-MV4FNWBQPT.svg'
 
 export default function Services() {
   return (
@@ -12,6 +12,7 @@ export default function Services() {
             <div className='service-1'>
               <div className='webdev-icon'>
               <img style={{width:'100%',height:'100%',objectFit:'cover'}} src={webdevimg}/>
+              
               </div>
               <div className='webdev-text'>
               <h2 style={{textAlign:'center'}} className='text-light'>Web Development</h2>

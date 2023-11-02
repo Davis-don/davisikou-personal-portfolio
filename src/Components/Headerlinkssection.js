@@ -62,6 +62,7 @@ export default function Headerlinkssection() {
        <p><span className='name-first-letter'>D</span>avis.</p>
      </div>
      <div className='menu-icon-render'onClick={()=>Setmount(Ismount=>!Ismount)}>
+     <div className='opacity-comtroller'></div>
         <Menuicon/>
      </div>
      <div className='Header-intro-text-render'>

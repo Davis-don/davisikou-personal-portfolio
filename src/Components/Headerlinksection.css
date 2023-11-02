@@ -36,9 +36,19 @@
     color:white;
     }
     .menu-icon-render{
-    position: absolute;
+    position: fixed;
     top:15px;
     left:80vw;
+    z-index: +4;
+    }
+    .opacity-comtroller{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    background-color:black;
+    z-index:-2;
+    opacity: 0.7;
     }
     .skill-text{
     color:rgb(225, 218, 218)
@@ -63,10 +73,10 @@
 
     /*menu icon click sidebar*/
     .overall-sidebar-container{
-    width:50vw;
+    width:60vw;
     height: 90vh;
     background-color: rgb(25, 25, 25);
-    position: absolute;
+    position: fixed;
     top: 10vh;
     right:0px;
     z-index: +2;
@@ -105,11 +115,11 @@ padding: 20px;
         text-align: center;
     }
     .close-window-icon{
-    width:max-content;
-    margin-left: 100%;
+    width:100%;
+    margin-right:100px;
     }
     .actual-icon{
-        font-size: xx-large;
+        font-size: x-large;
     }
 }
 @media screen and (min-width: 401px){
