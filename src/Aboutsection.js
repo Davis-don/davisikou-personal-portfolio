@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Userimage() {
   return (
     <div className='user-image-container'>
-   <img className='actual-don-image'src={donimage}/>
+   <img className='actual-don-image rounded-circle'src={donimage}/>
     </div>
   )
 }
