@@ -32,10 +32,10 @@ function Contactdetails(){
 function Bottomiconlinks(){
     return(
         <div className='bottom-icons-container'>
-            <div><FaLinkedin className='text-light'style={{fontSize:'30px'}}/></div>
-            <div><FaYoutube className='text-light' style={{fontSize:'30px'}}/></div>
-            <div><FaTiktok className='text-light' style={{fontSize:'30px'}}/></div>
-            <div><FaGithubAlt className='text-light' style={{fontSize:'30px'}}/></div>
+            <div> <a href='https://www.linkedin.com/in/davis-ikou-876544267/?originalSubdomain=ke'><FaLinkedin className='text-light'style={{fontSize:'30px'}}/></a></div>
+            <div><a href='https://www.youtube.com/@winkywebbers'><FaYoutube className='text-light' style={{fontSize:'30px'}}/></a>></div>
+            <div> <a href='https://www.tiktok.com/@Winky.Webbers?_t=8h5a3megmYP&_1'><FaTiktok className='text-light' style={{fontSize:'30px'}}/></a></div>
+            <div> <a href='https://github.com/Davis-don'><FaGithubAlt className='text-light' style={{fontSize:'30px'}}/></a></div>
         </div>
     )
 }
