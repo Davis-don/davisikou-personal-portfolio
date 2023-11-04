@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/davisikou-personal-portfolio/static/css/main.b7b79d08.css",
-    "main.js": "/davisikou-personal-portfolio/static/js/main.099d796b.js",
+    "main.css": "/davisikou-personal-portfolio/static/css/main.3df1f97c.css",
+    "main.js": "/davisikou-personal-portfolio/static/js/main.976389ac.js",
     "static/js/787.fb771931.chunk.js": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/daniel-korpai-bOKIptPzdPk-unsplash.jpg": "/davisikou-personal-portfolio/static/media/daniel-korpai-bOKIptPzdPk-unsplash.7f6e7c2066c4c813d011.jpg",
     "static/media/8machine-_-GVAYgLlpeZ8-unsplash.jpg": "/davisikou-personal-portfolio/static/media/8machine-_-GVAYgLlpeZ8-unsplash.65edde2b6b4ffad4adb4.jpg",
@@ -9,12 +9,12 @@
     "static/media/reshot-icon-app-design-MV4FNWBQPT.svg": "/davisikou-personal-portfolio/static/media/reshot-icon-app-design-MV4FNWBQPT.c1ae98099fdbc1c95083e44809e1fd97.svg",
     "static/media/reshot-icon-computer-web-coding-MS3EDQ8V6H.svg": "/davisikou-personal-portfolio/static/media/reshot-icon-computer-web-coding-MS3EDQ8V6H.d3cb6952daead4d8f1c0f29c7781d4a4.svg",
     "index.html": "/davisikou-personal-portfolio/index.html",
-    "main.b7b79d08.css.map": "/davisikou-personal-portfolio/static/css/main.b7b79d08.css.map",
-    "main.099d796b.js.map": "/davisikou-personal-portfolio/static/js/main.099d796b.js.map",
+    "main.3df1f97c.css.map": "/davisikou-personal-portfolio/static/css/main.3df1f97c.css.map",
+    "main.976389ac.js.map": "/davisikou-personal-portfolio/static/js/main.976389ac.js.map",
     "787.fb771931.chunk.js.map": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7b79d08.css",
-    "static/js/main.099d796b.js"
+    "static/css/main.3df1f97c.css",
+    "static/js/main.976389ac.js"
   ]
 }
