@@ -17,7 +17,7 @@ function Formcomponent() {
 
 export default function Contactme() {
   return (
-    <div className='overall-contact-section container-fluid'>
+    <div className='overall-contact-section container-fluid'id='Contact'>
         <h2 className='text-light' style={{textAlign:'center'}}>Contact me</h2>
        <div className='form-render'>
         <Formcomponent/>

@@ -6,7 +6,7 @@ import  uiuxicon from'../Images/reshot-icon-app-design-MV4FNWBQPT.svg'
 
 export default function Services() {
   return (
-    <div className='overall-services-container'>
+    <div className='overall-services-container'id='Services'>
         <h3 className='text-light container-fluid'>My Services</h3>
         <div className='service-holders'>
             <div className='service-1'>

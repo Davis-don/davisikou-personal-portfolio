@@ -4,6 +4,11 @@ import './Headerlinksection.css'
 import topimage from '../Images/8machine-_-GVAYgLlpeZ8-unsplash.jpg'
 import userimg from '../Images/donieimg.jpg'
 import { FaBars, FaRegWindowClose } from "react-icons/fa";
+import Aboutsection from '../Aboutsection';
+import Services from './Services';
+import Myworks from './Myworks';
+import Contactme from './Contactme';
+import Getintouchsection from './Getintouchsection';
 
 
 function Headerimg() {
@@ -46,10 +51,11 @@ function Headerintrotext(){
          <p className='text-light'style={{fontSize:'x-large',textAlign:'center',marginTop:'20px;'}}>Menu</p>
          <ul className='list-unstyled sidebar-nav-links container-fluid'>
           <li className='active-sidebar'><a className='text-decoration-none text-dark' href='#'>Home</a></li>
-          <li><a className='text-decoration-none'href='#'>Services</a></li>
-          <li><a className='text-decoration-none'href='#'>My works</a></li>
-          <li><a className='text-decoration-none'href='#'>Contact me</a></li>
-          <li><a className='text-decoration-none'href='#'>Get in touch</a></li>
+          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Aboutsection#About'>About me</a></li>
+          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Services#Services'>Services</a></li>
+          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Myworks#Work'>My works</a></li>
+          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Contactme#Contact'>Contact me</a></li>
+          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Getintouchsection#getintouch'>Get in touch</a></li>
          </ul>
         </div>
       )

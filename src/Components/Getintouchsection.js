@@ -5,7 +5,7 @@ import { FaEnvelope,FaWhatsapp,FaPhoneAlt,FaLinkedin,FaYoutube,FaTiktok,FaGithub
 
 function Contactdetails(){
     return(
-        <div className='contact-details-container'>
+        <div className='contact-details-container'id='getintouch'>
             <ul className='list-unstyled overall-contact-list'>
                 <li>
                     <ul className='list-unstyled contact-info'>
