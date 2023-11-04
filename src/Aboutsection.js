@@ -73,7 +73,7 @@ function Navigationlinks(){
                 </li>
                 <li style={{lineHeight:'5px'}}>
                     <p style={{color:' #F30606'}}>Website design and development</p>
-                    <p className='text-light'>Design and develop we applications.</p>
+                    <p className='text-light'>Design and develop web applications.</p>
                 </li>
             </ul>
             </div>
@@ -101,7 +101,7 @@ function Navigationlinks(){
                 Iseducation && 
             <div className='Education description'>
               <p className='text-danger'><FaUserGraduate className='text-light' /> Undergraduate</p>
-              <p className='text-light'>Student at Muranga University of Technology persing Bachelor of Science in Mathematics and Computer science.</p>
+              <p className='text-light'>Student at Muranga University of Technology pursueing Bachelor of Science in Mathematics and Computer science.</p>
             </div>
             }
             </div>

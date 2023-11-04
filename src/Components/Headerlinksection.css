@@ -72,14 +72,19 @@
     }
 
     /*menu icon click sidebar*/
+      .actual-side-bar{
+    background-color: red;
+    } 
+    .sidebar-render{
+top:50px;
+position: fixed;
+z-index: +4;
+    left: 50%;
+    transform: translate(-50%, 0);
+    }
     .overall-sidebar-container{
-    width:60vw;
-    height: 90vh;
     background-color: rgb(25, 25, 25);
-    position: fixed;
-    top: 8vh;
-    right:0px;
-    z-index: +2;
+    height: 100vh;
     }
     .my-user-img{
     width:70px;
