@@ -29,9 +29,7 @@ gap:10px;
 .Skills-section ul li{
 
 }
-.active-skill{
-border-bottom: 1px solid #F30606;
-}
+
 .skills-display{
 display: flex;
 flex-direction: column;
