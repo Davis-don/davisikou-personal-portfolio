@@ -1,3 +1,4 @@
+@media screen and (max-width: 400px){
 .getintouch-overfall-container{
 
 }
@@ -38,3 +39,31 @@ height:45px;
 .copyright-txt{
 color: rgb(105, 102, 102);
 }
+}
+@media screen and (min-width: 401px){
+    /*tablet screens*/
+    @media screen and (max-width: 1000px){
+        *{
+            background-color: red;
+        }
+    }  
+     /*Desktop screens*/
+     @media screen and (min-width:1001px){
+     }
+     .getintouch-lg-screen{   /*not visible for large screens*/
+        display:none;
+     }
+     .getintouch-lg-screen{      /*not visible for large screens*/
+        display:none;
+     }
+     .bottom-links-render{
+    display:none;                 /*not visible for large screens*/
+     }
+     .contact-div-render{          /*not visible for large screens*/
+        display:none;
+     }
+     .copyright-txt{
+        color: rgb(137, 131, 131);
+        font-size: larger;
+     }
+    }

@@ -106,8 +106,21 @@ function Navigationlinks(){
             }
             </div>
     )
-}
+}   
+         function Davisimg(){
+          return(
+            <div className='overall-Davis-image-container'>
 
+            </div>
+          )
+         }
+         function Aboutinformation(){
+          return(
+            <div className='overall-aboutinformation-container'>
+              
+            </div>
+          )
+         }
 export default function Aboutsection() {
   return (
     <div className='overall-about-container'id='About'>
@@ -119,6 +132,28 @@ export default function Aboutsection() {
         </div>
         <div className='Skills-section-render'>
             <Navigationlinks/>
+        </div>
+        <div className='overall-about-desktop-container'> {/* desktop screens section*/}
+        <div className='about-subsections-overall'>
+              <div className='left-about-section'>
+               <div className='Davis-image-holder'>
+                <div className='image-opacity-controller'></div>
+              <img src={donimage}/>
+               </div>
+              </div>
+              <div className='right-about-section'>
+              <h2 style={{color:'white',textAlign:'center'}}>About me</h2>
+              <div className='about-text-container'>
+              <p className='text-light container-fluid'>My name is Davis Mugo Ikou.I am currently a student at Muran'ga University of Technology persuing
+        bachelors degree in Mathematics and Computer Science. </p>
+        <p className='text-light container-fluid'>Apart from that I do part-time freelancing jobs on UI/UX design and frontrnd web development.I am always open to working on large
+            projects requiring collaboreations.
+        </p>
+        <Navigationlinks/>
+        </div>
+              </div>
+              </div>
+              
         </div>
         </div>
   )

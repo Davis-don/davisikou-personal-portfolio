@@ -36,6 +36,54 @@ background-color: #28161C;
 position:relative;
 }
 }
-@media screen and (min-width: 400px){
-
+@media screen and (min-width: 401px){
+    /*tablet screens*/
+    @media screen and (max-width: 1000px){
+        *{
+            background-color: red;
+        }
+    }  
+     /*Desktop screens*/
+    @media screen and (min-width:1001px){
+        .overall-services-container{
+            width:100%;
+            height: max-content;
+            background-color: #020202;
+            padding: 20px;
+            }
+            .service-holders{
+                display: flex;
+                flex-direction: row;
+                gap:40px;
+                width:80vw;
+                margin:auto;
+            }
+            .service-1,.service-2{
+            width:500px;
+            height: 230px;
+            margin: auto;
+            
+            }
+            .service-1{
+            background-color: rgb(113, 73, 73);
+            position:relative;
+            }
+            .webdev-icon,.ui-ux-icon{
+            width:60px;
+            height: 60px;
+            position: absolute;
+            top:0px;
+            margin:10px;
+            }
+            .webdev-text,.uiux-text{
+            margin-top: 60px;
+            }
+            .web-dev-description,.uiux-descriprion{
+            font-size: larger;
+            }
+            .service-2{
+            background-color: #28161C;
+            position:relative;
+            }
+    }
 }

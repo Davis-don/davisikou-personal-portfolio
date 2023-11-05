@@ -35,4 +35,101 @@ display: flex;
 flex-direction: column;
 gap:15px;
 }
+.overall-about-desktop-container{  /*Desktop screens content*/
+display:none;
+}
+}
+@media screen and (min-width: 401px){
+    /*tablet screens*/
+    @media screen and (max-width: 1000px){
+        *{
+            background-color: red;
+        }
+    }  
+     /*Desktop screens*/
+    @media screen and (min-width:1001px){
+        .overall-about-container{
+            width:100%;
+            height:max-content;
+            padding: 20px;
+            background-color: black;
+            }
+            .About-content-section{     /*not visible on small screens*/
+                display:none;
+            }
+            .user-image-container{  /*not visible on small screens*/
+            width:110px;
+            height: 120px;
+            margin: auto;
+            display:none;
+            }
+            .user-image-render{    /*not visible on small screens*/
+            display:none;
+            }
+            .actual-don-image{     /*not visible on small screens*/
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display:none;
+            }
+            .Skills-section-render{
+                display: none;
+            }
+            .Skills-section{  
+            
+            }
+            .skills-links{     
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+            
+            }
+    }
+    .about-subsections-overall{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:75vw;
+    margin: auto;
+    }
+    .left-about-section{
+   width:40vw;
+   height: 500px;
+   background-color: black;
+    }
+    .Davis-image-holder{
+        position: relative;
+        margin-top: 40px;
+        width:23vw;
+        height: 350px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: black;
+    }
+    .image-opacity-controller{
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: +2;
+    opacity: 0.3;
+    }
+    .Davis-image-holder img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    .right-about-section{
+        width:45vw;
+        height: 500px;
+        background-color: black;
+    }
+    .about-text-container{
+        width:40vw;
+        margin: auto;
+    }
+    .about-text-container p{
+        font-size: larger;
+    }
 }

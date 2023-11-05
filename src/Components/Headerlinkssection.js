@@ -60,6 +60,21 @@ function Headerintrotext(){
         </div>
       )
     }
+    
+    function Navigationlinks(){  {/*only viisible on desktop screens*/}
+      return(
+        <div className='overall-desktop-nav-container'>
+         <ul className='list-unstyled  container-fluid'>
+          <li className='home-active'><a className='text-decoration-none text-dark' href='#'>Home</a></li>
+          <li ><a className='text-decoration-none'href='Aboutsection#About'>About me</a></li>
+          <li ><a className='text-decoration-none'href='Services#Services'>Services</a></li>
+          <li ><a className='text-decoration-none'href='Myworks#Work'>My works</a></li>
+          <li ><a className='text-decoration-none'href='Contactme#Contact'>Contact me</a></li>
+          <li ><a className='text-decoration-none'href='Getintouchsection#getintouch'>Get in touch</a></li>
+         </ul>
+        </div>
+      )
+    }
 export default function Headerlinkssection() {
  const [Ismount,Setmount]=useState(false)
  function Expansedebar(){
@@ -73,6 +88,9 @@ export default function Headerlinkssection() {
     <div className='user-name-text-render'>
        <p><span className='name-first-letter'>D</span>avis.</p>
      </div>
+     <div className='navigation-desktop-screen'>   {/* navigation for desktop screens */}
+     <Navigationlinks/>
+    </div>
      <div className='menu-icon-render'onClick={Expansedebar}>
      <div className='opacity-comtroller'></div>
         <Menuicon/>

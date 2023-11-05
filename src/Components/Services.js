@@ -16,7 +16,7 @@ export default function Services() {
               </div>
               <div className='webdev-text'>
               <h2 style={{textAlign:'center'}} className='text-light'>Web Development</h2>
-              <p className='text-light container-fluid'>I develop personal portfolio websites, business portfolios and collaborate with other developers
+              <p className='text-light container-fluid web-dev-description'>I develop personal portfolio websites, business portfolios and collaborate with other developers
               for large web based projects.</p>
               </div>
               
@@ -27,7 +27,7 @@ export default function Services() {
             </div>
             <div className='uiux-text'>
               <h2 style={{textAlign:'center'}} className='text-light'>UI/UX Design</h2>
-              <p className='text-light container-fluid'>I Design interactive and user friendly user interfaces which convey the intended message to your visitors</p>
+              <p className='text-light container-fluid uiux-descriprion'>I Design interactive and user friendly user interfaces which convey the intended message to your visitors</p>
               </div>
             </div>
         </div>

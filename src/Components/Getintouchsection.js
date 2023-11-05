@@ -33,7 +33,7 @@ function Bottomiconlinks(){
     return(
         <div className='bottom-icons-container'>
             <div> <a href='https://www.linkedin.com/in/davis-ikou-876544267/?originalSubdomain=ke'><FaLinkedin className='text-light'style={{fontSize:'30px'}}/></a></div>
-            <div><a href='https://www.youtube.com/@winkywebbers'><FaYoutube className='text-light' style={{fontSize:'30px'}}/></a>></div>
+            <div><a href='https://www.youtube.com/@winkywebbers'><FaYoutube className='text-light' style={{fontSize:'30px'}}/></a></div>
             <div> <a href='https://www.tiktok.com/@Winky.Webbers?_t=8h5a3megmYP&_1'><FaTiktok className='text-light' style={{fontSize:'30px'}}/></a></div>
             <div> <a href='https://github.com/Davis-don'><FaGithubAlt className='text-light' style={{fontSize:'30px'}}/></a></div>
         </div>
@@ -42,8 +42,11 @@ function Bottomiconlinks(){
 export default function Getintouchsection() {
   return (
     <div className='getintouch-overrall-container'>
-       <h2 className='text-light' style={{textAlign:'center'}}>Get in Touch</h2>
-       <Contactdetails/>
+       <h2 className='text-light getintouch-lg-screen' style={{textAlign:'center'}}>Get in Touch</h2>
+       <div className='contact-div-render'>
+      <Contactdetails/>
+       </div>
+       
        <div className='bottom-links-render'>
         <Bottomiconlinks/>
        </div>

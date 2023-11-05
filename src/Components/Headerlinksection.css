@@ -1,3 +1,4 @@
+/*mobile phone screens*/
 @media screen and (max-width: 400px){
     .header-links-overall-container{
   position:relative;
@@ -126,9 +127,170 @@ padding: 20px;
     .actual-icon{
         font-size: x-large;
     }
+    .navigation-desktop-screen{  /*visible on desktop screens*/
+        display:none;
+    }
 }
+
 @media screen and (min-width: 401px){
-    *{
+    /*tablet screens*/
+    @media screen and (max-width: 1000px){
+        *{
+            background-color: red;
+        }
+    }  
+     /*Desktop screens*/
+    @media screen and (min-width:1001px){
+            .header-links-overall-container{
+          position:relative;
+            }
+            .actual-image{
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+            }
+            .image-holder-container{
+            width:100%;
+            height:100vh;
+            }
+            .user-name-text{
         
+            }
+            .name-first-letter{
+            color:#F30606;
+            }
+            .navigation-desktop-screen{  /*only visible on large screen*/
+            position:absolute;
+            z-index: +3;
+            top:20px;
+            left:25vw;
+            margin: auto;
+            }
+            .overall-desktop-nav-container{  /*only visible on large screen*/
+
+            }
+            .overall-desktop-nav-container ul{    /*only visible on large screen*/
+            display:flex;
+            flex-direction: row;
+            gap:15px
+            }
+            .overall-desktop-nav-container ul li{  /*only visible on large screen*/
+
+            }
+            .overall-desktop-nav-container ul li:hover{
+           border-bottom: 3px solid red;
+            } 
+            .home-active{
+            background-color: rgb(255, 255, 255);
+            padding:5px;
+            border-radius: 5px;
+            }                                     /*only visible on large screen*/
+            .overall-desktop-nav-container ul li a{  /*only visible on large screen*/
+           color:white;
+           font-size: 20px;
+            }
+            .user-name-text-render p{
+             color:white;
+            position:absolute;
+            top:0px;
+            font-weight: 500;
+            font-size: 50px;
+            letter-spacing: 4px;
+            margin-left:10px;
+            }
+            /*start of the display none section*/
+            .menu-icon-holder{
+            display:none;
+            }
+            .actual-bars-icon{
+            display:none;
+            }
+            .menu-icon-render{
+            
+            display:none
+            }
+            .opacity-comtroller{
+            display: none;
+            }
+            /*end of display none section*/
+            .skill-text{
+            color:rgb(225, 218, 218);
+            font-size:xx-large;
+            }
+            .introduction-text{
+            font-size:50px;
+            color:white;
+            font-weight: 700;
+            letter-spacing: normal;
+            }
+            .user-name{
+            color:#F30606;
+            }
+            .Header-intro-text-render{
+                position: absolute;
+                top:45vh;
+                margin-left: 7vw;
+            }
+            .header-text-holder{
+            
+            }
+        
+            /*menu icon click sidebar*/
+              .actual-side-bar{
+            background-color: red;
+            } 
+            .sidebar-render{
+        top:50px;
+        position: fixed;
+        z-index: +4;
+            left: 50%;
+            transform: translate(-50%, 0);
+            }
+            .overall-sidebar-container{
+            background-color: rgb(25, 25, 25);
+            height: 90vh;
+            }
+            .my-user-img{
+            width:70px;
+            height: 70px;
+            margin: auto;
+            }
+            .actual-user-img{
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+            }
+            .sidebar-nav-links{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        padding: 20px;
+            }
+            .sidebar-nav-links li{
+                border-bottom: 1px solid rgb(48, 48, 48);
+            }
+            .sidebar-nav-links li:hover{
+            border-bottom: 2px solid #F30606;;
+        
+            }
+        .active-sidebar{
+            color:black;
+            background-color: white;
+            padding:10px;
+        }
+            .sidebar-nav-links li a{
+                font-size: large;
+                color:white;
+                text-align: center;
+            }
+            .close-window-icon{
+            width:100%;
+            margin-right:100px;
+            }
+            .actual-icon{
+                font-size: x-large;
+            }
+
+
     }
 }

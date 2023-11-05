@@ -16,4 +16,81 @@ padding: 20px;
 .form-component-holder form input{
 background-color: #5C5656;
 }
+.overall-contact-sub-containers{  /*visible on desktop screens*/
+    display:none;
 }
+}
+@media screen and (min-width: 401px){
+    /*tablet screens*/
+    @media screen and (max-width: 1000px){
+        *{
+            background-color: red;
+        }
+    }  
+     /*Desktop screens*/
+     @media screen and (min-width:1001px){
+        .form-render{    /*visible on small screens*/
+            display: none;
+        }
+        .small-screen-heading{  /*visible on small screens*/
+            display:none
+        }
+        .form-component-holder{ 
+            width:100%;
+            height: max-content;
+            margin:auto;
+            padding: 20px;
+            }
+            .form-component-holder form{  
+                display: flex;
+                flex-direction: column;
+                gap:20px;
+            }
+            .form-component-holder form input{  
+            background-color: #5C5656;
+            }
+            .overall-contact-sub-containers{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width:90vw;
+                margin:auto;
+                padding-top: 30px;
+            }
+            .contact-bigscreen-details-container{
+            }
+            .overall-bigscreen-contact-list{
+             display:flex;
+             flex-direction: column;
+             gap:20px;
+             width: max-content;
+             margin: auto;
+            }
+            .big-screen-contact-info{
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+            }
+            .big-screen-contact-icon{
+           font-size:40px;
+           color:white;
+            }
+            .big-screen-bottom-icons-container{
+                display: flex;
+                flex-direction: row;
+                gap:35px;
+                width:max-content;
+                margin: auto;
+                margin-top: 40px;
+            }
+            .left-side-contact-div{
+                width:40vw;
+                height: 300px;
+            }
+            .right-side-contact-div{
+                width:40vw;
+                height: 300px;
+            }
+
+     }
+    }
