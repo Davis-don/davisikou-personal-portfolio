@@ -1,4 +1,5 @@
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 600px){
 
     .myworks-overall-container{
     width:100%;
@@ -37,15 +38,12 @@
     display:none;
     }
 }
-@media screen and (min-width: 401px){
+@media screen and (min-width: 601px){
     /*tablet screens*/
-    @media screen and (max-width: 1000px){
-        *{
-            background-color: red;
-        }
-    }  
+    /* @media screen and (max-width: 1000px){   
+    }   */
      /*Desktop screens*/
-    @media screen and (min-width:1001px){
+    @media screen and (min-width:601px){
        .myworks-overall-container{
        }
        .work-heading{

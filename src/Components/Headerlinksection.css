@@ -1,5 +1,5 @@
 /*mobile phone screens*/
-@media screen and (max-width: 400px){
+@media screen and (max-width: 860px){
     .header-links-overall-container{
   position:relative;
     }
@@ -132,15 +132,15 @@ padding: 20px;
     }
 }
 
-@media screen and (min-width: 401px){
+@media screen and (min-width: 861px){
     /*tablet screens*/
-    @media screen and (max-width: 1000px){
+    /* @media screen and (max-width: 1000px){
         *{
             background-color: red;
         }
-    }  
+    }   */
      /*Desktop screens*/
-    @media screen and (min-width:1001px){
+    @media screen and (min-width:601px){
             .header-links-overall-container{
           position:relative;
             }

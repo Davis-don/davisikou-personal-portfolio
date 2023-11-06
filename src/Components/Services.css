@@ -1,4 +1,5 @@
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 850px){
 
 .overall-services-container{
 width:100%;
@@ -36,15 +37,14 @@ background-color: #28161C;
 position:relative;
 }
 }
-@media screen and (min-width: 401px){
+@media screen and (min-width: 851px){
     /*tablet screens*/
-    @media screen and (max-width: 1000px){
-        *{
-            background-color: red;
-        }
-    }  
+    /* @media screen and (max-width: 1000px){
+    
+        
+    }   */
      /*Desktop screens*/
-    @media screen and (min-width:1001px){
+    @media screen and (min-width:851px){
         .overall-services-container{
             width:100%;
             height: max-content;
