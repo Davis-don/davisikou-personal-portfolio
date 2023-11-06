@@ -51,7 +51,7 @@ function Navigationlinks(){
     }
    }
     return(
-        <div className='Skills-section container-fluid'>
+        <div className='Skills-section container-fluid' id='About'>
         <ul className='list-unstyled skills-links'>
             <li  style={{
           borderBottom: Isskill ? '1px solid red' : '',

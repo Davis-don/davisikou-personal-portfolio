@@ -4,6 +4,8 @@ import './Headerlinksection.css'
 import topimage from '../Images/8machine-_-GVAYgLlpeZ8-unsplash.jpg'
 import userimg from '../Images/donieimg.jpg'
 import { FaBars, FaRegWindowClose } from "react-icons/fa";
+import { HashLink as Link } from 'react-router-hash-link';
+import { BrowserRouter } from 'react-router-dom';
 import Aboutsection from '../Aboutsection';
 import Services from './Services';
 import Myworks from './Myworks';
@@ -49,14 +51,16 @@ function Headerintrotext(){
           <img className='actual-user-img rounded-circle'src={userimg}/>
          </div>
          <p className='text-light'style={{fontSize:'x-large',textAlign:'center',marginTop:'20px;'}}>Menu</p>
+         <BrowserRouter>
          <ul className='list-unstyled sidebar-nav-links container-fluid'>
           <li className='active-sidebar'><a className='text-decoration-none text-dark' href='#'>Home</a></li>
-          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Aboutsection#About'>About me</a></li>
-          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Services#Services'>Services</a></li>
-          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Myworks#Work'>My works</a></li>
-          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Contactme#Contact'>Contact me</a></li>
-          <li onClick={()=>clsesidebar(true)}><a className='text-decoration-none'href='Getintouchsection#getintouch'>Get in touch</a></li>
+          <li><Link to ="#About"onClick={()=>clsesidebar(true)}className='text-decoration-none'>About me</Link></li>
+          <li> <Link to="#Services"onClick={()=>clsesidebar(true)}className='text-decoration-none'>Services</Link></li>
+          <li> <Link to="#Work"onClick={()=>clsesidebar(true)}className='text-decoration-none'>My work</Link></li>
+          <li><Link to="#Contact"onClick={()=>clsesidebar(true)}className='text-decoration-none' >Contact me</Link></li>
+          <li><Link to="#Getintouch"onClick={()=>clsesidebar(true)}className='text-decoration-none'>Get in touch</Link></li>
          </ul>
+         </BrowserRouter>
         </div>
       )
     }
@@ -64,14 +68,16 @@ function Headerintrotext(){
     function Navigationlinks(){  {/*only viisible on desktop screens*/}
       return(
         <div className='overall-desktop-nav-container'>
-         <ul className='list-unstyled  container-fluid'>
+         <BrowserRouter>
+         <ul className='list-unstyled container-fluid'>
           <li className='home-active'><a className='text-decoration-none text-dark' href='#'>Home</a></li>
-          <li ><a className='text-decoration-none'href='Aboutsection#About'>About me</a></li>
-          <li ><a className='text-decoration-none'href='Services#Services'>Services</a></li>
-          <li ><a className='text-decoration-none'href='Myworks#Work'>My works</a></li>
-          <li ><a className='text-decoration-none'href='Contactme#Contact'>Contact me</a></li>
-          <li ><a className='text-decoration-none'href='Getintouchsection#getintouch'>Get in touch</a></li>
+          <li><Link to ="#About"className='text-decoration-none'>About me</Link></li>
+          <li> <Link to="#Services"className='text-decoration-none'>Services</Link></li>
+          <li> <Link to="#Work"className='text-decoration-none'>My work</Link></li>
+          <li><Link to="#Contact"className='text-decoration-none' >Contact me</Link></li>
+          <li><Link to="#Getintouch"className='text-decoration-none'>Get in touch</Link></li>
          </ul>
+         </BrowserRouter>
         </div>
       )
     }

@@ -5,7 +5,7 @@ import { FaEnvelope,FaWhatsapp,FaPhoneAlt,FaLinkedin,FaYoutube,FaTiktok,FaGithub
 
 function Contactdetails(){
     return(
-        <div className='contact-details-container'id='getintouch'>
+        <div className='contact-details-container'>
             <ul className='list-unstyled overall-contact-list'>
                 <li>
                     <ul className='list-unstyled contact-info'>
@@ -41,6 +41,7 @@ function Bottomiconlinks(){
 }
 export default function Getintouchsection() {
   return (
+    <section id='Getintouch'>
     <div className='getintouch-overrall-container'>
        <h2 className='text-light getintouch-lg-screen' style={{textAlign:'center'}}>Get in Touch</h2>
        <div className='contact-div-render'>
@@ -52,5 +53,6 @@ export default function Getintouchsection() {
        </div>
        <p style={{textAlign:'center'}}> <span className='text-light'><FaRegCopyright/></span><span className='copyright-txt'>opyright Davis Mugo Ikou 2023</span></p>
     </div>
+    </section>
   )
 }

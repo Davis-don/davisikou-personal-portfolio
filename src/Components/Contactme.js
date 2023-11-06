@@ -18,7 +18,7 @@ function Formcomponent() {
 }
 function Contactbigscreendetails(){
   return(
-      <div className='contact-bigscreen-details-container'id='getintouch'>
+      <div className='contact-bigscreen-details-container'id='Contact'>
           <ul className='list-unstyled overall-bigscreen-contact-list'>
               <li>
                   <ul className='list-unstyled big-screen-contact-info'>
