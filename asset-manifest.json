@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/davisikou-personal-portfolio/static/css/main.b7e4aaf5.css",
+    "main.css": "/davisikou-personal-portfolio/static/css/main.62c2a07f.css",
     "main.js": "/davisikou-personal-portfolio/static/js/main.3b2dcae3.js",
     "static/js/787.fb771931.chunk.js": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/8machine-_-GVAYgLlpeZ8-unsplash.jpg": "/davisikou-personal-portfolio/static/media/8machine-_-GVAYgLlpeZ8-unsplash.65edde2b6b4ffad4adb4.jpg",
@@ -9,12 +9,12 @@
     "static/media/reshot-icon-app-design-MV4FNWBQPT.svg": "/davisikou-personal-portfolio/static/media/reshot-icon-app-design-MV4FNWBQPT.c1ae98099fdbc1c95083e44809e1fd97.svg",
     "static/media/reshot-icon-computer-web-coding-MS3EDQ8V6H.svg": "/davisikou-personal-portfolio/static/media/reshot-icon-computer-web-coding-MS3EDQ8V6H.d3cb6952daead4d8f1c0f29c7781d4a4.svg",
     "index.html": "/davisikou-personal-portfolio/index.html",
-    "main.b7e4aaf5.css.map": "/davisikou-personal-portfolio/static/css/main.b7e4aaf5.css.map",
+    "main.62c2a07f.css.map": "/davisikou-personal-portfolio/static/css/main.62c2a07f.css.map",
     "main.3b2dcae3.js.map": "/davisikou-personal-portfolio/static/js/main.3b2dcae3.js.map",
     "787.fb771931.chunk.js.map": "/davisikou-personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7e4aaf5.css",
+    "static/css/main.62c2a07f.css",
     "static/js/main.3b2dcae3.js"
   ]
 }
