@@ -103,12 +103,11 @@ flex-direction: column;
 gap:20px;
 padding: 20px;
     }
-    .sidebar-nav-links li{
+    .link-item{
         border-bottom: 1px solid rgb(48, 48, 48);
     }
-    .sidebar-nav-links li:hover{
-    border-bottom: 2px solid #F30606;;
-
+    .link-item:hover{
+        border-bottom: 2px solid #F30606;
     }
 .active-sidebar{
     color:black;

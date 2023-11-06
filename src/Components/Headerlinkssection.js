@@ -54,11 +54,11 @@ function Headerintrotext(){
          <BrowserRouter>
          <ul className='list-unstyled sidebar-nav-links container-fluid'>
           <li className='active-sidebar'><a className='text-decoration-none text-dark' href='#'>Home</a></li>
-          <li><Link to ="#About"onClick={()=>clsesidebar(true)}className='text-decoration-none'>About me</Link></li>
-          <li> <Link to="#Services"onClick={()=>clsesidebar(true)}className='text-decoration-none'>Services</Link></li>
-          <li> <Link to="#Work"onClick={()=>clsesidebar(true)}className='text-decoration-none'>My work</Link></li>
-          <li><Link to="#Contact"onClick={()=>clsesidebar(true)}className='text-decoration-none' >Contact me</Link></li>
-          <li><Link to="#Getintouch"onClick={()=>clsesidebar(true)}className='text-decoration-none'>Get in touch</Link></li>
+          <Link  to ="#About"onClick={()=>clsesidebar(true)}className='text-decoration-none'><li className='text-light link-item'>About me</li></Link>
+           <Link to="#Services"onClick={()=>clsesidebar(true)}className='text-decoration-none'><li  className='text-light link-item'>Services</li></Link>
+           <Link to="#Work"onClick={()=>clsesidebar(true)}className='text-decoration-none'><li  className='text-light link-item'>My work</li></Link>
+          <Link to="#Contact"onClick={()=>clsesidebar(true)}className='text-decoration-none' ><li  className='text-light link-item'>Contact me</li></Link>
+          <Link to="#Getintouch"onClick={()=>clsesidebar(true)}className='text-decoration-none'><li  className='text-light link-item'>Get in touch</li></Link>
          </ul>
          </BrowserRouter>
         </div>
